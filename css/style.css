@@ -1,0 +1,244 @@
+* {
+   margin: 0;
+   padding: 0;
+   text-decoration: none;
+   list-style-type: none;
+   box-sizing: border-box;
+}
+
+@font-face {
+   font-family: glaho_sylfaen;
+   src: url(../fonts/bpg_glaho_sylfaen.ttf);
+}
+
+body {
+   background-image: url(../img/backtree.png);
+   width: 100%;
+   /* background-repeat: no-repeat; */
+
+}
+
+.HEADER {
+   padding-left: 638px;
+   padding-top: 50px;
+}
+
+.NavContainer {
+   width: 592px;
+   display: flex;
+   justify-content: space-between;
+
+
+}
+
+.menu1 {
+   width: 226px;
+   height: 70px;
+   background-color:  rgba(196, 196, 196, 1);
+   text-align: center;
+   padding-top: 24px;
+   border-top-right-radius: 35px;
+   border-bottom-left-radius: 35px;
+}
+.NavContainer :hover{
+   background-color: rgba(121, 179, 49, 1);
+   color: rgba(255, 255, 255, 1);
+}
+
+.menu2 {
+   width: 126px;
+   height: 70px;
+   background-color: rgba(196, 196, 196, 1);
+   text-align: center;
+   padding-top: 24px;
+   border-top-right-radius: 35px;
+   border-bottom-left-radius: 35px;
+}
+
+.menu3 {
+   width: 72px;
+   height: 70px;
+   background-color: rgba(196, 196, 196, 1);
+   text-align: center;
+   padding-top: 24px;
+   border-top-right-radius: 35px;
+   border-bottom-left-radius: 35px;
+}
+
+.menu1 a {
+   font-family: glaho_sylfaen;
+   font-size: 18px;
+   color:rgba(0, 0, 0, 1);
+}
+
+.menu2 a {
+   font-family: glaho_sylfaen;
+   font-size: 18px;
+   color: rgba(0, 0, 0, 1);
+}
+
+.menu3 a {
+   font-family: glaho_sylfaen;
+   font-size: 18px;
+   color: rgba(0, 0, 0, 1);
+}
+
+.Box {
+   width: 390px;
+   height: 156px;
+   /* background-color: blue; */
+   margin: 92px 0 0 806px;
+   text-align: center;
+}
+
+.circule {
+   width: 32px;
+   height: 32px;
+   background-color: rgba(121, 179, 49, 1);
+   border-radius: 50%;
+   position: relative;
+   animation: circuleround 2s infinite;
+  
+}
+
+@keyframes circuleround {
+   0% {
+      top: 0;
+      left: 0;
+   }
+
+   25% {
+      top: 0;
+      left: 358px;
+   }
+
+   50% {
+      top: 124px;
+      left: 358px;
+   }
+
+   75% {
+      top: 124px;
+      left: 0;
+   }
+
+   100% {
+      top: 0;
+      left: 0;
+   }
+}
+
+.aqcia {
+   font-family: glaho_sylfaen;
+   color: rgba(0, 0, 0, 1);
+   font-size: 18px;
+   margin-bottom: 16px;
+  
+}
+
+.darchenilia {
+   font-family: glaho_sylfaen;
+   color: rgba(0, 0, 0, 1);
+   font-size: 36px;
+   
+}
+ 
+.TreeBox{
+   width: 1060px;
+   height: 500px;
+   margin-left: 337px;
+   margin-top: 140px;
+}
+.Ghero{
+   width: 1px;
+   height: 492px;
+   background-color: rgba(196, 196, 196, 1);
+   margin: 10px auto;
+}
+.tree1{
+   width: 50%;
+   display: flex;
+   margin-top: -492px;
+   margin-left: 86px;
+}
+.Fotoli1{
+   width: 70px;
+   height: 70px;
+   background-color: rgba(196, 196, 196, 1);
+   border-radius: 0 35px 0 35px;
+}
+.TreeText1{
+   font-family: glaho_sylfaen;
+   width: 374px;
+
+}
+.tree2{
+   width: 50%;
+   display: flex;
+   margin-left: 530px;
+   margin-top: 42px;
+}
+.Fotoli2{
+   width: 70px;
+   height: 70px;
+   background-color: rgba(196, 196, 196, 1);
+   border-radius: 35px 0 35px 0 ;
+}
+.TreeText2{
+   font-family: glaho_sylfaen;
+   width: 400px;
+   margin-left: 22px;
+}
+.tree3{
+   width: 50%;
+   display: flex;
+   margin-left: 24px;
+   margin-top:34px;
+}
+.TreeText3{
+   font-family: glaho_sylfaen;
+   width: 436px;
+}
+.tree4{
+   width: 50%;
+   display: flex;
+   margin-top: 36px;
+   margin-left: 530px;;
+}
+.TreeText4{
+   width: 400px;
+   font-family: glaho_sylfaen;
+
+}
+/*** Ipad ***/
+
+@media only screen and (max-width:1024px) {
+   body{
+      width: 100%;
+      background-position-x: -180px;
+      background-repeat: no-repeat;
+   }
+
+.HEADER{
+   padding-left: 214px;
+}
+
+.Box {
+   margin-left: 526px;
+   margin-bottom: 466px;
+}
+.tree2{
+   flex-direction: row-reverse;
+  margin-left: 0;
+}
+.tree4{
+   flex-direction: row-reverse;
+   margin-left: 0;
+}
+.Fotoli2{
+   border-radius: 0 35px 0 35px;
+}
+
+}
+
+
